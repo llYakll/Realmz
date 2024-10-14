@@ -1,6 +1,7 @@
 import { render, screen } from '@testing-library/react';
 import App from '../src/components/App';
 import { describe, it, expect } from 'vitest';
+import '@testing-library/jest-dom';
 import React from 'react';
 
 describe('App', () => {
