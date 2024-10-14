@@ -3,7 +3,7 @@ normally I wouldnt import React because its referenced globally, however due to 
 project structured, this is a necessary evil.
 */
 import React from 'react'; 
-import './App.css'
+import '../styles/App.css'
 
 function App() {
   return (
